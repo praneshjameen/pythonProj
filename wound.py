@@ -18,7 +18,7 @@ mask = cv2.inRange(image, lower, upper)
 cv2.imshow('Mask',mask)
 
 output = cv2.bitwise_and(image, image, mask=mask)
-cv2.imshow('sadas',output)
+cv2.imshow('Output',output)
 
 
 
